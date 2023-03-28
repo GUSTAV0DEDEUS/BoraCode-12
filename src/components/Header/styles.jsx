@@ -19,6 +19,46 @@ export const NavBar = styled.header`
     font-size: 1.8rem;
     color: #c7c7cd;
   }
+  nav{
+    cursor: pointer;
+  }
+  nav ul{
+    display: none;
+  }
+  nav ul.open{
+    animation: fade2 .6s linear forwards;
+    position: absolute;
+    right: 4rem;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    gap:.8rem;
+    background: var(---white);
+    width: 140px;
+    height: 140px;
+    border: 0.7px solid #E3E3E3;
+    box-shadow: 0px 4px 16px rgba(22, 22, 22, 0.1);
+    border-radius: 8px;
+  }
+  nav ul li{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    font-size: 1.4rem;
+    color: var(---black);
+    transition: .6s all;
+  }
+  nav ul li:hover{
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  nav ul li svg{
+    font-size: 2rem;
+  }
 `;
 
 export const Filter = styled.form`
@@ -131,6 +171,14 @@ export const Filter = styled.form`
         opacity: 1;
       }
     }
+    @keyframes fade2 {
+      0%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 1;
+      }
+    }
   }
 `;
 
@@ -153,4 +201,5 @@ export const Switch = styled.label`
     background-color: var(---bg-color);
     cursor: pointer;
   }
+
 `;

@@ -35,6 +35,12 @@ export const Box = styled.li`
       opacity: 0;
     }
   `}
+  @media screen and (max-width: 748px) {
+    width: 300px;
+    p{
+      width: 260px;
+    }
+  }
 `;
 
 export const Label = styled.span`

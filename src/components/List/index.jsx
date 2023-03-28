@@ -3,9 +3,9 @@ import { Container } from "./styles";
 import { TbBellPlus } from "react-icons/tb";
 import Card from "../Card";
 
-export default function List({ data }) {
+export default function List({ data,  index: listIndex }) {
   return (
-    <Container>
+    <Container done={data.done}>
       <header className="header">
         <h2>{data.title}</h2>
         {data.creatable && (
@@ -16,14 +16,12 @@ export default function List({ data }) {
       </header>
 
       <ul>
-        {data.cards.map((card) => (
+        {data.cards.map((card, index) => (
           <Card
             key={card.id}
-            texto={card.content}
-            title={card.title}
-            tags={card.labels.map((label) => (
-              <span key={label.id}>{label.tag}</span>
-            ))}
+            listIndex={listIndex}
+            index={index}
+            data={card}
           />
         ))}
       </ul>
