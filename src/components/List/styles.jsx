@@ -35,5 +35,14 @@ export const Container = styled.section`
     align-items: center;
     overflow-y: auto;
   }
+  @media screen and (max-width: 748px) {
+    ul{
+      flex-direction: row;
+      width: auto;
+      height: 100%;
+      overflow-x: auto;
+    }
+    
+  }
 `;
 
