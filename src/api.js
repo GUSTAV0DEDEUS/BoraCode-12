@@ -6,79 +6,54 @@ export function loadLists() {
       cards: [
         {
           id: 1,
-          title: "Hello",
-          content: "Estudar módulo 01 de NodeJS",
+          title: "#boraCodar um Kanban 🧑‍💻",
+          content:
+            "Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.",
           labels: [
             {
               id: 1,
-              tag: "Oi",
+              tag: "rocketseat",
             },
             {
               id: 2,
-              tag: "oi",
+              tag: "desafio",
             },
           ],
         },
         {
           id: 2,
-          title: "Hello",
+          title: "Manter a ofensiva 🔥",
           content:
-            "Criar vídeo para o Youtube ensinando a recriar a interface do Pipefy",
+            "Manter minha atividade na plataforma da Rocketseat para não perder a ofensiva",
           labels: [
             {
               id: 1,
-              tag: "Oi",
-            },
-            {
-              id: 2,
-              tag: "oi",
+              tag: "rocketseat",
             },
           ],
         },
         {
           id: 3,
-          title: "Hello",
-          content: "Estudar módulo 03 de React Native",
+          title: "Almoçar 🥗",
+          content:
+            "Me alimentar, aproveitando um momento de descanso para recarregar minhas energias durante o almoço",
           labels: [
             {
               id: 1,
-              tag: "Oi",
-            },
-            {
-              id: 2,
-              tag: "oi",
+              tag: "autocuidade",
             },
           ],
           user: "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png",
         },
         {
           id: 4,
-          title: "Hello",
+          title: "Curtir post do #boraCodar 💜",
           content:
-            'Gravar Aula "NextJS: Utilizando server-side rendering com ReactJS"',
+            "Deixar o like para demonstrar que gostei do novo desafio proposto nas",
           labels: [
             {
               id: 1,
-              tag: "Oi",
-            },
-            {
-              id: 2,
-              tag: "oi",
-            },
-          ],
-        },
-        {
-          id: 5,
-          title: "Hello",
-          content: "Gravar testes e deploy ReactJS",
-          labels: [
-            {
-              id: 1,
-              tag: "Oi",
-            },
-            {
-              id: 2,
-              tag: "oi",
+              tag: "rocketseat",
             },
           ],
         },
@@ -89,10 +64,32 @@ export function loadLists() {
       creatable: false,
       cards: [
         {
+          id: 5,
+          title: "Conferir o novo desafio 🚀 ",
+          content:
+            "Conferir o novo projeto do #boraCodar para fazê-lo da melhor maneira possível",
+          labels: [
+            {
+              id: 1,
+              tag: "rocketseat",
+            },
+            {
+              id: 2,
+              tag: "desafio",
+            },
+          ],
+        },
+        {
           id: 6,
-          title: "Hello",
-          content: "Recriando clone do Pipefy",
-          labels: [],
+          title: "Ser incrível 😎",
+          content:
+            "Sempre me lembrar de manter minha autenticidade e espalhar amor",
+          labels: [
+            {
+              id: 1,
+              tag: "autocuidado",
+            },
+          ],
         },
       ],
     },
@@ -102,39 +99,34 @@ export function loadLists() {
       done: true,
       cards: [
         {
-          id: 10,
-          title: "Hello",
-          content: "Gravar aula sobre deploy e CI com React Native",
-          labels: [],
-        },
-        {
-          id: 12,
-          title: "Hello",
-          content: "Gravar testes e deploy ReactJS",
+          id: 7,
+          title: "#boraCodar uma página de login 🧑‍💻",
+          content:
+            "Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.",
           labels: [
             {
               id: 1,
-              tag: "Oi",
+              tag: "rocketseat",
             },
             {
               id: 2,
-              tag: "oi",
+              tag: "desafio",
             },
           ],
         },
         {
-          id: 13,
-          title: "Hello",
+          id: 8,
+          title: "#boraCodar uma página de clima 🧑‍💻",
           content:
-            'Gravar Aula "Internacionalização de aplicações Node.js, ReactJS e React Native"',
+            "Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.",
           labels: [
             {
               id: 1,
-              tag: "Oi",
+              tag: "rocketseat",
             },
             {
               id: 2,
-              tag: "oi",
+              tag: "desafio",
             },
           ],
         },

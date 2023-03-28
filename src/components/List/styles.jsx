@@ -1,19 +1,19 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 export const Container = styled.section`
   padding: 0 15px;
   height: 100%;
-  .header{
+  .header {
     display: flex;
     align-items: center;
     height: 7.2rem;
 
-    h2{
+    h2 {
       font-size: 1.8rem;
       font-weight: 700;
       padding: 0 2.4rem;
     }
 
-    button{
+    button {
       border: 0;
       background: transparent;
       display: flex;
@@ -21,13 +21,15 @@ export const Container = styled.section`
       color: var(---purple);
       font-size: 2.4rem;
       cursor: pointer;
-      transition: .6s all;
+      transition: 0.6s all;
     }
-    &:hover, &:focus, &:active{
-      filter: grayscale(.6)
+    &:hover,
+    &:focus,
+    &:active {
+      filter: grayscale(0.6);
     }
   }
-  ul{
+  ul {
     display: flex;
     height: 60vh;
     gap: 1.6rem;
@@ -36,13 +38,11 @@ export const Container = styled.section`
     overflow-y: auto;
   }
   @media screen and (max-width: 748px) {
-    ul{
+    ul {
       flex-direction: row;
       width: auto;
       height: 100%;
-      overflow-x: auto;
+      overflow-x: scroll;
     }
-    
   }
 `;
-
