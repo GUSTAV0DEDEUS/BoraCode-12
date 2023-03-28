@@ -20,7 +20,7 @@
 
 <h2 id="projeto"> Projeto </h2>
 
-> Bora codar 12, desenvolva um kanban, <a href="" >Link para o resultado</a>
+> Bora codar 12, desenvolva um kanban, <a href="https://bora-code-12.vercel.app/" >Link para o resultado</a>
 
 <h2 id="diario"> Diário de bordo </h2>
 <table>
