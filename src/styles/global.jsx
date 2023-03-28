@@ -16,7 +16,7 @@ export default createGlobalStyle`
   ---black: #403937;
   ---black-light: #756966;
   /* icon color */
-  ---icon-color: #C7C7CD
+  ---icon-color: #C7C7CD;
   }
 
   *{
